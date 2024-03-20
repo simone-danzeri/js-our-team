@@ -48,4 +48,12 @@ const teamMembers = [
         img: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
-console.log(teamMembers);
+// console.log(teamMembers);
+// Per ogni membro del team stampo in console nome, cognome, ruolo, img
+for(let i = 0; i < teamMembers.length; i++) {
+    let eachMember = teamMembers[i];
+    console.log(eachMember);
+    for(let key in eachMember) {
+        console.log(key + ' : ' + eachMember[key]);
+    }
+}
