@@ -86,8 +86,8 @@ for (let i = 0; i < teamMembers.length; i++) {
                     ${eachMember.role}
                 </h4>
                 <p id="img">
-                    ${eachMember.img}
-                </p>
+                  <img src="img/${eachMember.img}" alt="">
+              </p>
         </div>
     `;
 
